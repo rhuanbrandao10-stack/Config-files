@@ -1,0 +1,389 @@
+{
+  "__VERSION__": "269",
+  "FanControl": {
+    "Controls": [
+      {
+        "NickName": "Fan #1",
+        "Identifier": "/lpc/nct6793d/control/0",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "CPU",
+        "Identifier": "/lpc/nct6793d/control/1",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "CPU"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6793d/fan/1"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            614,
+            false
+          ],
+          [
+            1,
+            648,
+            false
+          ],
+          [
+            10,
+            786,
+            false
+          ],
+          [
+            20,
+            950,
+            false
+          ],
+          [
+            30,
+            1113,
+            false
+          ],
+          [
+            40,
+            1288,
+            false
+          ],
+          [
+            50,
+            1462,
+            false
+          ],
+          [
+            60,
+            1654,
+            false
+          ],
+          [
+            70,
+            1839,
+            false
+          ],
+          [
+            80,
+            1987,
+            false
+          ],
+          [
+            90,
+            1988,
+            false
+          ],
+          [
+            100,
+            1997,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "Fan #3",
+        "Identifier": "/lpc/nct6793d/control/2",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "Fan #4",
+        "Identifier": "/lpc/nct6793d/control/3",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "Fan #5",
+        "Identifier": "/lpc/nct6793d/control/4",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "Fan #6",
+        "Identifier": "/lpc/nct6793d/control/5",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": []
+      },
+      {
+        "NickName": "GPU",
+        "Identifier": "ADLX/AMD Radeon RX 5500 XT/768/control",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "GPU"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "ADLX/AMD Radeon RX 5500 XT/768/fan"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            1,
+            1782,
+            false
+          ],
+          [
+            10,
+            1782,
+            false
+          ],
+          [
+            20,
+            1782,
+            false
+          ],
+          [
+            30,
+            1790,
+            false
+          ],
+          [
+            40,
+            1947,
+            false
+          ],
+          [
+            50,
+            2220,
+            false
+          ],
+          [
+            60,
+            2478,
+            false
+          ],
+          [
+            70,
+            2674,
+            false
+          ],
+          [
+            80,
+            2822,
+            false
+          ],
+          [
+            90,
+            2969,
+            false
+          ],
+          [
+            100,
+            3108,
+            false
+          ]
+        ]
+      }
+    ],
+    "CustomSensors": [],
+    "FanCurves": [
+      {
+        "Name": "GPU",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "ADLX/AMD Radeon RX 5500 XT/768/temp/GPU"
+        },
+        "Points": [
+          "40,25",
+          "50.0149130700159,35",
+          "60.0198840933546,50",
+          "70.0248551166932,70",
+          "75,85",
+          "80,100"
+        ],
+        "MaximumTemperature": 100,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 10,
+          "ResponseTimeDown": 10,
+          "HysteresisValueUp": 3,
+          "HysteresisValueDown": 3,
+          "IgnoreHysteresisAtLimits": true
+        }
+      },
+      {
+        "Name": "CPU",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "/amdcpu/0/temperature/2"
+        },
+        "Points": [
+          "35,30",
+          "45,40",
+          "55,55",
+          "65,70",
+          "75,76.5884444444444",
+          "80,100"
+        ],
+        "MaximumTemperature": 100,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": true
+        }
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/nct6793d/fan/0",
+        "IsHidden": false,
+        "NickName": "Fan #1"
+      },
+      {
+        "Identifier": "/lpc/nct6793d/fan/1",
+        "IsHidden": false,
+        "NickName": "CPU"
+      },
+      {
+        "Identifier": "/lpc/nct6793d/fan/2",
+        "IsHidden": false,
+        "NickName": "Fan #3"
+      },
+      {
+        "Identifier": "/lpc/nct6793d/fan/3",
+        "IsHidden": false,
+        "NickName": "Fan #4"
+      },
+      {
+        "Identifier": "/lpc/nct6793d/fan/4",
+        "IsHidden": false,
+        "NickName": "Fan #5"
+      },
+      {
+        "Identifier": "/lpc/nct6793d/fan/5",
+        "IsHidden": false,
+        "NickName": "Fan #6"
+      },
+      {
+        "Identifier": "ADLX/AMD Radeon RX 5500 XT/768/fan",
+        "IsHidden": false,
+        "NickName": "GPU"
+      }
+    ],
+    "TemperatureSensors": []
+  },
+  "MainWindow": {
+    "Fahrenheit": false,
+    "HideCalibration": false,
+    "HideFanSpeedCards": true,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FFFF8C00",
+    "SecondaryColor": "#FFFF5400",
+    "SelectedTheme": "",
+    "ShowHiddenCards": false,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TrayIconColor": null,
+    "TrayIcons": []
+  },
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": true,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "Memory": false,
+      "Motherboard": true,
+      "PowerMonitor": false,
+      "PSU": false,
+      "Storage": false,
+      "StorageUpdateInterval": "00:01:00",
+      "ZeroRPMOverride": true
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": true
+    }
+  }
+}
